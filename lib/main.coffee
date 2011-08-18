@@ -112,7 +112,7 @@ exports.process = (args) ->
 
 
 # Start methods load things
-start =
+exports.start = start =
 
   server: ->
     util.log('Starting SocketStream server...')
